@@ -124,7 +124,7 @@ header {
 .party-invaitetion-letter {
   text-align: center;
   color: #070211;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
@@ -136,21 +136,96 @@ header {
 .party-span {
   color: red;
 }
-.party-btn, a {
+.party-btn,
+a {
   border-radius: 8px;
   background: #f00;
   color: white;
   font-size: 23px;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 10px 25px;
   border: none;
   text-decoration: none;
-  
-  
 }
 
-.partyBtn{
+.partyBtn {
   padding-left: 450px;
   padding-top: 50px;
 }
+
+/* best offer section styles  */
+
+/* best offer left styles */
+
+.best-offer {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  height: 500px;
+  margin: 100px auto 100px;
+  gap: 50px;
+}
+.best-offer-left {
+  
+}
+.offer-left-cap {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-left-title {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  padding-top: 15px;
+}
+.offer-left-discription {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 25px;
+  width: 350px;
+}
+/* best offer img  */
+.best-offer-middle {
+  border-radius: 50%;
+  border: 8px solid red;
+  width: 350px;
+  height: 350px;
+}
+.best-offer-middle img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  margin: 17px;
+}
+
+/* best offer right styles  */
+
+.best-offer-right {
+}
+.offer-right-head {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.offer-right-discription {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 16px;
+
+}
+.best-offer-right img {
+
+  padding-top: 16px;
+}
+
