@@ -256,16 +256,15 @@ a {
 .holiday-discription {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
   width: 800px;
   margin: auto;
   padding-top: 20px;
-
 }
-.holiday-img{
+.holiday-img {
   display: flex;
   justify-content: space-between;
   gap: 50px;
@@ -274,17 +273,108 @@ a {
   background-position: bottom center;
   height: 629px;
   padding-top: 50px;
- 
+  border-radius: 0px 0px 10px 10px;
 }
-.holiday-img1{
+.holiday-img1 {
   width: 500px;
-  
- 
-
 }
-.holiday-img2{
+.holiday-img2 {
   width: 400px;
   height: auto;
   margin-bottom: 229px;
-  
+}
+
+/* portfolio section styles*/
+
+.portfolio {
+  width: 1100px;
+  margin: 100px auto 100px;
+}
+.portfolio-head {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+.portfolio-discription {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 800px;
+  padding-top: 20px;
+}
+.product-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding-top: 20px;
+}
+.product-img img {
+  width: 350px;
+}
+
+/* subscribe section styles  */
+
+.subscribe {
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px;
+}
+.subscribe-img {
+  width: 150px;
+  height: 150px;
+}
+.subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+.subscribe-discription {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; 
+  padding-top: 20px;
+  width: 800px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.subscribe .email {
+ padding: 15px 30px;
+ font-size: 20px;
+border: none;
+ border-radius: 50px 0 0 50px;
+ margin-right: -5px;
+
+}
+.subscribe .submit{
+  padding: 15px 30px;
+  font-size: 20px;
+  background: red;
+  color: white;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  border-radius: 0 50px 50px 0;
 }
